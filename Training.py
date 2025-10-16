@@ -54,7 +54,7 @@ criterion = torch.nn.MSELoss()
 optimizer = torch.optim.Adam(AttU_model.parameters(),lr=1e-4)
 loss_history = []
 
-num_epochs=1
+num_epochs=1000
 for epoch in range(num_epochs):
     AttU_model.train()
     running_loss=0
@@ -81,7 +81,7 @@ criterion = torch.nn.MSELoss()
 optimizer = torch.optim.Adam(UNet_model.parameters(),lr=1e-4)
 loss_history = []
 
-num_epochs=1
+num_epochs=1000
 for epoch in range(num_epochs):
     UNet_model.train()
     running_loss=0
@@ -110,7 +110,7 @@ optimizer = torch.optim.Adam(ResUNet_model.parameters(),lr=1e-4)
 loss_history = []
 
 
-num_epochs=1
+num_epochs=1000
 for epoch in range(num_epochs):
     ResUNet_model.train()
     running_loss=0
