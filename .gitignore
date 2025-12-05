@@ -1,4 +1,6 @@
-weights/
-data/
+data/full_CNN_train.p
+data/full_CNN_labels.p
 
-.p
+data/
+weights/
+outputs/
